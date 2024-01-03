@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 7rem;
+    padding: 2rem;
+    background-color: #bc5801;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.titleLi{
+    font-weight: bold !important;
+    font-size: 17px;
+}
+li{
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+li:hover{
+    color: rgb(218, 218, 218);
+}

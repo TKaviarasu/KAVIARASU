@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    box-shadow: 5px 0 8px gray;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.logo{
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+}
+nav ul li {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(70, 70, 70);
+}nav ul li:hover {
+    color: #f88d2a;
+    transition: .2s;
+}

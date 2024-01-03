@@ -1,0 +1,49 @@
+.banner{
+    width: 100% !important;
+    position: relative;
+    margin-inline: auto;
+    display: block;
+    min-height: 340px;
+    object-fit: cover;
+    object-position: right;
+}
+.desc{
+    position: absolute;
+    left: 50px;
+    top: 8rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.desc h1{
+
+}
+.desc h3{
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 22px;
+}
+.desc p{
+    color: red;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.shop{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: gray;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.shop:hover{
+    margin-top: 1rem;
+    background-color: gray;
+    border: 2px solid gray;
+    color: white;
+    transition: .3s;
+}

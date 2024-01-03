@@ -1,0 +1,24 @@
+.optionCard{
+    width: 250px;
+    
+}
+.title{
+    margin: 20px 0;
+    color: rgb(51, 51, 51);
+}
+.desc{
+    line-height: 25px;
+}
+.link{
+margin-top: 10px;
+color: gray;
+cursor: pointer;
+font-size: 15px;
+
+}
+.link:hover{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+transition: .4s;
+    }

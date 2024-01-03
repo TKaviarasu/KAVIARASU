@@ -1,0 +1,36 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 7rem;
+    border-top: 2px solid rgb(223, 223, 223);
+    border-bottom: 2px solid rgb(223, 223, 223);
+    align-items: center;
+}
+.searchinp{
+    border: 1px solid #bc5801;
+    border-right: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    width: 18rem;
+}
+.submit{
+    border: 1px solid #bc5801;
+    border-left: none;
+    cursor: pointer;
+    color: #bc5801;
+    padding: 10px 10px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: transparent;
+}
+.desc{
+    margin-right: 3rem;
+    color: rgb(56, 56, 56);
+}
+.searchinp::placeholder{
+    color: #bc580198;
+}
